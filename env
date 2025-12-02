@@ -1,0 +1,19 @@
+# General Flask Settings
+FLASK_APP=app.py
+FLASK_ENV=development
+SECRET_KEY="YOUR_SECRET_KEY_HERE_CHANGE_ME"
+
+# Database Configuration
+DB_USER="root"
+DB_PASSWORD=""
+DB_HOST="localhost"
+DB_NAME="stuflow_db"
+
+# Email Configuration (Gmail example)
+# This configuration is now fixed to use your secure App Password.
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USE_TLS=True
+MAIL_USERNAME=stuflowappmail@gmail.com
+MAIL_PASSWORD=kwwljsgzbkrhlwkl
+MAIL_DEFAULT_SENDER=stuflowappmail@gmail.com
