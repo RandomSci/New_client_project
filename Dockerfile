@@ -26,7 +26,9 @@ EXPOSE 5000
 CMD gunicorn --bind 0.0.0.0:$PORT --workers 2 --threads 4 app:app
 ```
 
-## Step 4: Create `.dockerignore`
+**That's it!** No markdown, no triple backticks, no "Step 4" instructions. Just pure Docker commands.
+
+## Also fix `.dockerignore`:
 ```
 __pycache__/
 *.pyc
@@ -44,7 +46,7 @@ README.md
 *.log
 ```
 
-## Step 5: Create `.gitignore`
+## And `.gitignore`:
 ```
 # Python
 __pycache__/
